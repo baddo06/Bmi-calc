@@ -1,6 +1,6 @@
 function calculateBMI() {
-    let height = document.getElementById('height').value
-    let weight = document.getElementById('weight').value
+    let height = document.getElementById('h').value
+    let weight = document.getElementById('w').value
 
     let bmi = (weight / (height * height) * 703)
 
